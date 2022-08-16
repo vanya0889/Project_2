@@ -1,0 +1,51 @@
+@import '../../../variables.css';
+
+
+.this_day {
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    background: var(--liteBackground);
+    box-shadow: var(--boxShadow);
+    border-radius: var(--borderRadius);
+}
+
+.top_block {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.top_wrapper {
+
+}
+
+
+.icon {
+    height: 70px;
+}
+
+
+.temperature {
+    font-size: 96px;
+    font-weight: 500;
+    color: #4793FF;
+}
+
+.day {
+    font-size: 40px;
+    color: var(--liteColor);
+}
+
+.bottom_block {
+
+}
+
+
+.time,
+.city {
+    font-size: 25px;
+    color: #939CB0;
+}
+

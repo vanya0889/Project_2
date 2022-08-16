@@ -1,0 +1,7 @@
+
+:root{
+    --liteBackground: white;
+    --boxShadow:2px 5px 25px 3px rgba(180, 180, 180, 0.25);
+    --borderRadius:20px;
+    --liteColor: black;
+}

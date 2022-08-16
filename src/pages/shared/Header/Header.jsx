@@ -2,7 +2,7 @@ import React from "react";
 import Select from "react-select";
 import style from "./Header.module.css"
 import icon from "../../../assets/icons/kremlin-icon.png"
-import change from "../../../assets/icons/change.png"
+import change from "../../../assets/icons/changeTheme.png"
 
 
 export const Header = () => {
