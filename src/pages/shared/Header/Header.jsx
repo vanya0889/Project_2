@@ -1,7 +1,7 @@
 import React from "react";
 import Select from "react-select";
 import style from "./Header.module.css"
-import icon from "../../../assets/icons/kremlin-icon.png"
+import icon from "../../../assets/icons/snoop.gif"
 import change from "../../../assets/icons/changeTheme.png"
 
 
@@ -32,9 +32,9 @@ export const Header = () => {
 	<div className={style.header}>
 	  <div className={style.wrapper}>
 		<div className={style.logo}>
-		  <img src={icon} alt="kremlin-icon"/>
+		  <img className={style.logo} src={icon} alt="kremlin-icon"/>
 		</div>
-		<div className={style.title}>Russia weather</div>
+		<div className={style.title}>Rap weather</div>
 	  </div>
 
 

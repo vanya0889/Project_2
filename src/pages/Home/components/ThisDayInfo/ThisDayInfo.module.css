@@ -36,6 +36,7 @@
 
 .indicator_name,
 .indicator_value {
+    z-index: 1;
     font-size: 18px;
 }
 .indicator_name {
@@ -50,4 +51,5 @@
     position: absolute;
     top: 0;
     right: 0;
+    z-index: 0;
 }
